@@ -1,0 +1,42 @@
+.bg{
+    background-color: #066767;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+#workbenchPageContent {
+    max-width: 100%;
+    width: 100%;
+  }
+/* tr{
+  border: 1px solid black;
+} */
+.space{
+  margin-top: 10px;
+  margin-left: 75%;
+  margin-right: 30px;
+  
+}
+
+.pull-right{
+    float: right;
+}
+
+
+#spPageCanvasContent [data-automation-id="CanvasZone"], #spPageCanvasContent [data-automation-id="CanvasSection"], #spPageCanvasContent [data-automation-id="CanvasZone-SectionContainer"]{
+  max-width: 1320px !important;
+ padding: 0 !important;
+ margin: 0 auto !important;
+}
+
+/* .swal2-custom-popup{
+  width: 350px;
+  height: 300px;
+} */
+.swal2-shown.swal2-height-auto {
+  height: 100% !important;
+}
+ 
